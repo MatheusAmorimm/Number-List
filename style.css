@@ -7,7 +7,7 @@
 }
 
 body{
-    background: url(./fundomad.jpg) no-repeat;
+    background: url(./assets/fundomad.jpg) no-repeat;
     font: normal 15pt arial;
     --bgcolor: transparent;
 }
