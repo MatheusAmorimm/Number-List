@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body{
+    background: url(./fundomad.jpg) no-repeat;
+    font: normal 15pt arial;
+    --bgcolor: transparent;
+}
+
+
+section{
+    background: var(--bgcolor);
+    color: rgb(0, 0, 0);
+    width: 700px;
+    padding: 10px;
+    margin: 100px auto 20px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.199);
+}
+
+header{
+    width: 400px;
+    margin: auto auto 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: var(--bgcolor);
+    width: 200px;
+    margin: auto;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.212);
+}
+
+#lista{
+    background: var(--bgcolor);
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+}
+
+#msg{
+    margin: 5px 5px;
+}
+
+#res{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#txtn{
+    background: var(--bgcolor);
+    outline: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    border: none
+}
+
+#add{
+    background-color: var(--bgcolor);
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    outline: 2px solid black;
+    border: none;
+
+        &:hover{
+            opacity: 0.7;
+            cursor: pointer;
+        }
+}
+
+#fim{
+    background-color: var(--bgcolor);
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    outline: 2px solid black;
+    border: none;
+
+        &:hover{
+            opacity: 0.7;
+            cursor: pointer;
+        }
+}
+
