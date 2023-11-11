@@ -26,7 +26,9 @@ section{
 }
 
 header{
-    width: 400px;
+    
+    width: 100%;
+    max-width: 400px;
     margin: auto auto 30px;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -37,7 +39,8 @@ footer{
     color: rgb(255, 255, 255);
     text-align: center;
     background: var(--bgcolor);
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     margin: auto;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.212);
 }
