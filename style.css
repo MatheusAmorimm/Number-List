@@ -44,7 +44,8 @@ footer{
 
 #lista{
     background: var(--bgcolor);
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     margin-top: 10px;
     border: none;
     padding: 5px;
